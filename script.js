@@ -97,8 +97,10 @@ function create (){
     Mushrooms
     =============================================================                   
     */
-    mushrooms = this.physics.add.staticGroup()
-    mushrooms.create(425, 300, "mushroom").setOrigin(0,0)
+    //mushrooms = this.physics.add.staticGroup()
+    //mushrooms.create(425, 300, "mushroom").setOrigin(0,0)
+
+    mushrooms = this.add.image(425, 300, "mushroom").setOrigin(0,0)
 
     /*
     =============================================================
@@ -107,6 +109,8 @@ function create (){
     */
     this.physics.add.collider(player, platforms);
     this.physics.add.overlap(player, mushrooms, collectMushrooms, null, this);
+
+    console.log("teste")
 
     /*
     =============================================================
