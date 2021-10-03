@@ -47,6 +47,7 @@ function preload (){
 }
 
 function create (){
+    this.add.image(0, 0, "bg").setOrigin(0,0)
     /*
     =============================================================
     Player
@@ -138,6 +139,9 @@ function update (){
 
     if (cursors.up.isDown && player.body.touching.down){
         player.setVelocityY(playerConfigs.jump);
+    }
+
+    if(!player.body.touching.down){
         player.anims.play('jump');
     }
 }
