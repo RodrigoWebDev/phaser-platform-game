@@ -1,0 +1,14 @@
+{
+  "name": "game",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/RodrigoWebDev/phaser-platform-game.git",
+  "author": "Rodrigo Queiroz <rodrigo.queiroz.chagas@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "scripts": {
+    "start": ""
+  }
+}
