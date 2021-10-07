@@ -18,6 +18,8 @@ const config = {
     }
 };
 
+console.log("teste")
+
 const playerConfigs = {
     jump: -500,
     speed: 250
