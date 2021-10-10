@@ -6,9 +6,9 @@
   "author": "Rodrigo Queiroz <rodrigo.queiroz.chagas@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "parcel-bundler": "^1.12.5"
+    "http-server": "^13.0.2"
   },
   "scripts": {
-    "start": ""
+    "start": "yarn http-server -c-1 ./index.html"
   }
 }
